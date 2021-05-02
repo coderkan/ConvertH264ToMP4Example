@@ -9,7 +9,7 @@ I used 1.1.9 revision.
 ``` Java
 public class H264TrackExample {
 
-public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException {
 	  	String path = "in.h264";
 		String mp4path = "out.mp4";
 		
