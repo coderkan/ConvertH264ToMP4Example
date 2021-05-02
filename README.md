@@ -10,8 +10,8 @@ I used 1.1.9 revision.
 public class H264TrackExample {
 
   public static void main(String[] args) throws IOException {
-	  String path = "in.h264";
-		 mp4path = "out.mp4";
+	  	String path = "in.h264";
+		String mp4path = "out.mp4";
 		
 		H264TrackImpl h264track = new H264TrackImpl(new DirectFileReadDataSource(new File(path)));
 		Movie movie = new Movie();
@@ -20,7 +20,7 @@ public class H264TrackExample {
 		FileOutputStream fos = new FileOutputStream(mp4path);
 		mp4file.writeContainer(fos.getChannel());
 		fos.close();
-	}
+	}	
 }
 
 ```
